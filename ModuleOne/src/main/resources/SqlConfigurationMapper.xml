@@ -1,0 +1,11 @@
+<configuration>
+
+    <dataSource>
+        <parameter name="driverClass" value="com.mysql.jdbc.driver"></parameter>
+        <parameter name="jdbcUrl" value="mysql:jdbc:///test"></parameter>
+        <parameter name="username" value="root"></parameter>
+        <parameter name="password" value=""></parameter>
+    </dataSource>
+
+    <mapper url="UserMapper.xml"></mapper>
+</configuration>

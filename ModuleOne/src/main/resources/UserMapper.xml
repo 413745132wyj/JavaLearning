@@ -1,0 +1,10 @@
+<mapper namespace="User">
+
+    <select id="selectAll" ResultType="com.cj.dream.moduleOne.pojo.User">
+        select * from User
+    </select>
+
+    <select id="select" ResultType="com.cj.dream.moduleOne.pojo.User" parameterType="com.cj.dream.moduleOne.pojo.User">
+        select * from User where id = #{} and username = #{}
+    </select>
+</mapper>
